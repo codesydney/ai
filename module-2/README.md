@@ -30,8 +30,32 @@ For this learning path, we will be using **[LM Studio](https://lmstudio.ai/)** t
 
 ## Access to LLM using Python
 
-## Online vs Local LLM
+We will be using Python to access our Local LLM through LM Studio's OpenAI compatibility API. The OpenAI compatibility API allows you to use the same code to access different models, giving the developer the flexibility to experiment with different models without changing the code.
+
+## Online vs Local LLM (LM Studio)
+
+There are two main ways to access LLMs from our application: online and locally. Online LLMs are hosted on the cloud (ChatGPT, Anthropic, Google's Gemini, Meta's Llama, AWS Bedrock, etc) and can be accessed via an API, while local LLMs are run on your own hardware and can be accessed via a local API. Cloud LLMs can be challenging as they will have a variety of API standards, but there are integrations that make them OpenAI compatible.
+
+So regardless of Online LLM or Local LLM, the code to access the models is the same, thanks to the OpenAI compatibility API. This means that whatever you build locally, with little change, you can easily deploy it to the cloud. 
+
+Cloud deployment of your Generative AI is beyond the scope of this learning path, but it is something you can explore once you have built your Generative AI applications, or perhaps another learning path.
 
 ## Setting up your local LLM
 
+For this learning path, we will be using a tool called **[LM Studio](https://lmstudio.ai/)** to access our Local LLM. LM Studio is a powerful tool that allows you to run your LLM locally and access it through a simple API. It also has OpenAI compatibility, so you can use the same code to access different models.
+
+Initially we will start with the simple use case of accessing an LLM like in a chatbot scenario. We will then build on this to more complex use cases like Retrieval-Augmented Generation (RAG) and Vector Databases.
+
+While LM Studio is primarily a desktop application that will work with **Windows**, **Mac** (intel and M*) and **Linux**, it recently released a CLI version - **[LM Studio CLI](https://lmstudio.ai/blog/lms)**, so that you can run and control it programmatically. 
+
+**We will be covering in more detail how to set up your local LLM dev environment as part of this module.**
+
+
 ## Generative AI Libraries
+
+We will also be covering some of the popular Generative AI libraries that you can use to build your Generative AI applications. These libraries provide a wide range of tools and features that can help you build and deploy your Generative AI applications quickly and easily.
+
+Tools like **[LangChain](https://www.langchain.com/)** and **[LlamaIndex](https://www.llamaindex.ai/)** are popular libraries that can be used to build Generative AI applications. We will be covering these libraries and more in a bit more detail in the next few modules.
+
+Later on, we will also be covering more advanced topics such as Vector Databases and Retrieval-Augmented Generation (RAG) options. 
+
