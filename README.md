@@ -89,8 +89,8 @@ We will be following the learning path below:
 - FrontEnd + Backend + Local LLM + Vector Database + RAG
 
 ## Environment setup
-- use pyenv to manage python versions
-- use venv to manage your virtual environments
+- use `pyenv` to manage python versions
+- use `venv` to manage your virtual environments
 
 ```bash
 pyenv versions
