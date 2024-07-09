@@ -15,7 +15,7 @@ If you look at following image, you can see that **Knowledge base search & chatb
 
 ![top Generative use cases](./images/aws-anz-top-use-cases-gen-ai.png)
 
-So, for the next few months, Code.Sydney will be focusing on learning the building blocks of Generative AI to enable us to build solutions in the **Knowledge base search & chatbots** area.
+So, for the next few weeks, Code.Sydney will be focusing on learning the building blocks of Generative AI to enable us to build solutions in the **Knowledge base search & chatbots** area.
 
 This will be a progressive learning journey where we will start with the basics and gradually build up our knowledge and skills in Generative AI, with the aim of enabling our members to build their own end to end Generative AI solutions.
 
