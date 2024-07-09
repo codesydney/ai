@@ -18,8 +18,8 @@ When people talk about vectors, you will hear the terms, `mathematical represent
 |----------|----------|----------|
 | dog      | 0.97     | 0.38     |
 | cat      | 0.93     | 0.93     |
-| fish     | 0.83     | 0.63     |
-| dance    | 0.03     | 0.03     |
+| banana   | 0.23     | 0.63     |
+| apple    | 0.25     | 0.43     |
 | walk     | 0.05     | 0.02     |
 
 In the example above, we have a **2-dimensional vector space** where each object is represented by a vector with 2 features. The features are not really known but for sake of illustration, we have labelled them as `pet` and `colour`. The values in the vectors represent the importance of each feature for the object. For example, the vector for `dog` has a high value for `pet` and a low value for `colour`, indicating that `dog` is a pet and its colour has a representation closer to the value 0.38. 
@@ -27,6 +27,10 @@ In the example above, we have a **2-dimensional vector space** where each object
 The value `walk` has a low value for both `pet` and `colour`, indicating that it is neither a pet nor has a colour.
 
 The above table is a simple 2-dimension vector, however in the real world, like in the vector databases we will be using, the vectors are high-dimensional, typically 384, 768, 1024 and some embedding models even go up to 4096 dimensions. If you can easily visualise a 2-dimension vector, I find it  hard to visualise more than 3 dimensions.
+
+![Vector space ](./images/3-vector-image.jpg)
+
+In the image above, there is a input query in natural language - `kitten`, and visually, we can see that its vector representation is close to `cat` and `dog`. This is how semantic search works in a vector database.
 
 ## Get to know 2 popular Vector Databases (PgVector and ChromaDB)
 
@@ -39,6 +43,8 @@ Use the following command to start a PgVector container named `codesydney`. We a
 ```bash
 docker run --name codesydney -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 -v $(pwd)/postgres:/var/lib/postgresql/data:rw ankane/pgvector
 ```
+
+![Docker container running PgVector](./images/1-docker-container-running.png)
 
 ### Setting up ChromaDB in a local Docker container
 
@@ -76,7 +82,9 @@ Finally, you can connect to the database using the following command:
 \c vector_store
 ```
 
-Alternatively connecting to your Postgres database using a GUI tool like [DBeaver](https://dbeaver.io/), [pgAdmin](https://www.pgadmin.org/) or [JetBrains DataGrip](https://www.jetbrains.com/datagrip/) are also a good options.
+Alternatively, connect to your Postgres database using a GUI tool like [DBeaver](https://dbeaver.io/), [pgAdmin](https://www.pgadmin.org/) or [JetBrains DataGrip](https://www.jetbrains.com/datagrip/) are also a good options.
+
+![Connecting to PgVector using DBeaver](./images/2-sql-client-select.png)
 
 ## Accessing PgVector and ChromaDB using LlamaIndex or LangChain
 
