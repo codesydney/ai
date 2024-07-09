@@ -23,7 +23,7 @@ This will be a progressive learning journey where we will start with the basics 
 
 We will be following the learning path below:
 
-**Module 1** Fundamentals
+[**Module 1** Fundamentals](module-1/README.md)
 - Software Development Fundamentals
 - Git Basics
 - Python Basics
@@ -31,14 +31,14 @@ We will be following the learning path below:
 - Preparing your Python environment
 - Introduction to Generative AI Learning Path
 
-**Module 2** Generative AI Basics
+[**Module 2** Generative AI Basics](module-2/README.md)
 - Introduction to Generative AI
 - Access to LLM using Python
 - Online vs Local LLM
 - Setting up your local LLM
 - Generative AI Libraries (eg. LangChain and LlamaIndex)
 
-**Practical Project** Local LLM Mini project
+[**Project 1** Local LLM Mini project](.)
 - Setting up your Local LLM
 - Build a simple chatbot using Local LLM
 - Deliverables:
@@ -47,20 +47,20 @@ We will be following the learning path below:
     - personal Github repo with your chatbot project
     - Assume you are presenting this to a client
 
-**Module 3** Vector Databases
+[**Module 3** Vector Databases](module-3/README.md)
 - Introduction to Vector Databases
 - Get to know 2 popular Vector Databases (PgVector and ChromaDB)
 - Setting up PgVector and ChromaDB
 - Accessing PgVector and ChromaDB using LlamaIndex or LangChain
 - Ingestion of your dataset
 
-**Module 4** Retrieval-Augmented Generation (RAG)
+[**Module 4** Retrieval-Augmented Generation (RAG)](module-4/README.md)
 - Introduction to RAG
 - Basic RAG in LlamaIndex and LangChain
 - Chunking strategies
 - Embedding model selection
 
-**Practical Project** RAG Mini project
+**Project 2** RAG Mini project
 - Build a simple RAG model using LlamaIndex and LangChain
 
 **Module 5** Advanced RAG
@@ -69,7 +69,7 @@ We will be following the learning path below:
 - Metadata filtering and RAG
 - RAG with multiple documents
 
-**Practical Project** Advanced RAG project
+**Project 3** Advanced RAG project
 - Build a Chatbot that works for Complex queries and against multiple documents
 
 **Module 6** Frontend options
@@ -84,7 +84,7 @@ We will be following the learning path below:
 - FastAPI
 - DJango
 
-**Final Project** End to End Generative AI project
+**Project 4** End to End Generative AI project
 - document ingestion pipeline
 - FrontEnd + Backend + Local LLM + Vector Database + RAG
 
