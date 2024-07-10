@@ -1,6 +1,6 @@
 # Code.Sydney and Generative AI
 
-Here in Code.Sydney, we are building a **learning** and **collaborative** community around technologies such as web, mobile, data, and in this latest initiative, Generative AI.
+Here in [Code.Sydney](https://www.code.sydney/), we are building a **learning** and **collaborative** community around technologies such as web, mobile, data, and in this latest initiative, Generative AI.
 
 # Generative AI Building Blocks
 
