@@ -6,7 +6,7 @@ Here in [Code.Sydney](https://www.code.sydney/), we are building a **learning** 
 
 In 2024, the top Generative use cases in ANZ according to AWS:
 
-- Knowledge base search & chatbots
+- **Knowledge base search & chatbots**
 - Contact Center Intelligence + GenAI
 - Intelligent Document Processing + GenAI
 - Personalization + GenAI
