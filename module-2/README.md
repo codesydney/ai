@@ -59,3 +59,9 @@ Tools like **[LangChain](https://www.langchain.com/)** and **[LlamaIndex](https:
 
 Later on, we will also be covering more advanced topics such as Vector Databases and Retrieval-Augmented Generation (RAG) options. 
 
+## Assignment
+- Install **LM Studio** and **LM Studio CLI** on your local machine
+- Copy the [first exercise](1-local-llm-openai-compatibility.ipynb) to `my-notebooks` folder. Work on the exercise, but instead of a Llama 3 LLM, use another one from LM Studio.
+- Copy the [second exercise](2-local-llm-chatbot.ipynb) to `my-notebooks` folder. Work on the exercise with different values in the LM Studio API.
+- Reflect on the results and report back to the group in the Discord channel.
+
