@@ -4,7 +4,7 @@ Here in Code.Sydney, we are building a **learning** and **collaborative** commun
 
 # Generative AI Building Blocks
 
-In 2024, the top Generative use cases according to AWS:
+In 2024, the top Generative use cases in ANZ according to AWS:
 
 - Knowledge base search & chatbots
 - Contact Center Intelligence + GenAI
@@ -88,7 +88,18 @@ We will be following the learning path below:
 - document ingestion pipeline
 - FrontEnd + Backend + Local LLM + Vector Database + RAG
 
-## Environment setup
+# Course Prerequisites
+- Basic understanding of software development
+- Basic Python programming skills
+- Basic understanding of Git
+- Basic understanding of Jupyter Notebooks
+- Basic understanding of Docker
+- Basic understanding of SQL
+- Windows PC, Mac or Linux machine with at least 32 GB RAM
+- Stable internet connection
+- Willingness to learn and collaborate
+
+# Environment setup
 - use `pyenv` to manage python versions
 - use `venv` to manage your virtual environments
 

@@ -86,10 +86,7 @@ Alternatively, connect to your Postgres database using a GUI tool like [DBeaver]
 
 ![Connecting to PgVector using DBeaver](./images/2-sql-client-select.png)
 
-## Accessing PgVector and ChromaDB using LlamaIndex or LangChain
-
-To be completed
-
-## Ingestion of your dataset
-
-To be completed
+## Assignment
+- Install **Postgres** in your local machine using the **Docker** method mentioned above. You might want to use [Docker Desktop](https://www.docker.com/products/docker-desktop/) to help you manage your containers.
+- Copy the [exercise](./1-vector-dbs.ipynb) to `my-notebooks` folder.  Work on it to get familiar with **PgVector** and **LlamaIndex** data ingestion
+- Find another **embedding model** from [Hugging Face](https://huggingface.co/models?other=text-embedding) and ingest your own data (find a couple of your PDF or MD files).
