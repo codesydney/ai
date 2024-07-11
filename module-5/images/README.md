@@ -1,0 +1,1 @@
+- please open svg files in browser as the VSCode markdown preview does not render them correctly
