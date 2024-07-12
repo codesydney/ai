@@ -19,6 +19,17 @@ So, for the next few weeks, Code.Sydney will be focusing on learning the buildin
 
 This will be a progressive learning journey where we will start with the basics and gradually build up our knowledge and skills in Generative AI, with the aim of enabling our members to build their own end to end Generative AI solutions.
 
+# Course Prerequisites
+- Basic understanding of software development
+- Basic Python programming skills
+- Basic understanding of Git
+- Basic understanding of Jupyter Notebooks
+- Basic understanding of Docker
+- Basic understanding of SQL
+- Windows PC, Mac or Linux machine with at least 32 GB RAM
+- Stable internet connection
+- Willingness to learn and collaborate
+
 # Generative AI Learning Path
 
 We will be following the learning path below:
@@ -60,16 +71,16 @@ We will be following the learning path below:
 - Chunking strategies
 - Embedding model selection
 
-**Project 2** RAG Mini project
+[**Project 2** RAG Mini project](.)
 - Build a simple RAG model using LlamaIndex and LangChain
 
-**Module 5** Advanced RAG
+[**Module 5** Advanced RAG](module-5/README.md)
 - RAG failure modes
 - Advanced RAG strategies
 - Metadata filtering and RAG
 - RAG with multiple documents
 
-**Project 3** Advanced RAG project
+[**Project 3** Advanced RAG project](.)
 - Build a Chatbot that works for Complex queries and against multiple documents
 
 **Module 6** Frontend options
@@ -87,17 +98,6 @@ We will be following the learning path below:
 **Project 4** End to End Generative AI project
 - document ingestion pipeline
 - FrontEnd + Backend + Local LLM + Vector Database + RAG
-
-# Course Prerequisites
-- Basic understanding of software development
-- Basic Python programming skills
-- Basic understanding of Git
-- Basic understanding of Jupyter Notebooks
-- Basic understanding of Docker
-- Basic understanding of SQL
-- Windows PC, Mac or Linux machine with at least 32 GB RAM
-- Stable internet connection
-- Willingness to learn and collaborate
 
 # Environment setup
 - use `pyenv` to manage python versions
