@@ -41,4 +41,4 @@ source .venv/bin/activate
 - **Star** this course in Github
 - Join the **[Discord channel](https://discord.com/channels/1041795715757789204/1094455854897573908)** and introduce yourself
 - Let others know what you are learning now and **LinkedIn** is great for this
-- Connect with your study group members on **LinkedIn**, and [with me too](linkedin.com/in/joreyes)!
+- Connect with your study group members on **LinkedIn**, and [with me too](https://linkedin.com/in/joreyes)!
