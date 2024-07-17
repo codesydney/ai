@@ -71,6 +71,11 @@ LlamaIndex has the following convention for describing a RAG system:
 ![Retrieval and Generation Strategies](./images/5-advanced-both.png)
 
 ## Examples for Sub Question strategy here:
+
+### <span style="color:orange">Note: We will be using a commercial LLM for the following notebooks.</span>
+
+**Simple questions** can be answered by our Local LLM, however, more **complex questions** will need a more powerful LLM such as the **Claude 3** LLM which is available from Bedrock. Complex questions are those that require the answers from multiple indexes or multiple disparate parts of the same source document.
+
 - [Compare and contrast resumes](./1-advanced-rag-resumes.ipynb)
 - [Compare and contrast Subaru models](./2-advanced-rag-subaru.ipynb)
 - [Compare and contrast 10-K filings](./3-advanced-rag-10-k-analysis-.ipynb) 
@@ -79,6 +84,6 @@ LlamaIndex has the following convention for describing a RAG system:
 - Read the document [RAG_Failure_Points.pdf](../module-4/data/RAG_Failure_Points.pdf) and reflect on the 7 RAG failure points made in the document.
 - What strategies can you try when your local LLM is having difficulties responding to your questions?
 - The next steps to more advanced RAG systems are Agents. Here is a free and really good [course on Building Agentic RAG with LlamaIndex](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)
-- Build your own notebook in the `my-notebooks` folder. Build your your own RAG System with your own data, with the purpose of comparing and contrasting one or multiple documents. Find a dataset that you are interested or are quite familiar with in and build a RAG system around it.
-- Complete this notebook pretending that you are presenting this to a client. Push this to your GitHub repository and share the link with cohort on Discord for feedback.
+- Build your own notebook in the `my-notebooks` folder. Build your your own RAG System with your own data, with the purpose of comparing and contrasting one or multiple documents. Find a dataset that you are interested or are quite familiar with and build a RAG system around it.
+- Complete this notebook pretending that you are presenting this to a client. Push this to your personal GitHub repository and share the link with cohort on Discord for feedback.
 
