@@ -41,6 +41,7 @@ We will be following the learning path below:
 - Jupyter Notebooks
 - Preparing your Python environment
 - Introduction to Generative AI Learning Path
+- [Link to Module 1 meeting recording](https://youtu.be/9OZg8e0LGvc?feature=shared)  
 
 [**Module 2** Generative AI Basics](module-2/README.md)
 - Introduction to Generative AI
