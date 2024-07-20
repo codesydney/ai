@@ -36,7 +36,7 @@ We will be using Python to access our Local LLM through LM Studio's OpenAI compa
 
 There are two main ways to access LLMs from our application: online and locally. Online LLMs are hosted on the cloud (ChatGPT, Anthropic, Google's Gemini, Meta's Llama, AWS Bedrock, etc) and can be accessed via an API, while local LLMs are run on your own hardware and can be accessed via a local API. Cloud LLMs can be challenging as they will have a variety of API standards, but there are integrations that make them OpenAI compatible.
 
-So regardless of Online LLM or Local LLM, the code to access the models is the same, thanks to the OpenAI compatibility API. This means that whatever you build locally, with little change, you can easily deploy it to the cloud. 
+So regardless of Online LLM or Local LLM, the code to access the models is the same, thanks to the OpenAI compatibility API and other libraries . This means that whatever you build locally, with little change, you can easily deploy it to the cloud. 
 
 Cloud deployment of your Generative AI is beyond the scope of this learning path, but it is something you can explore once you have built your Generative AI applications, or perhaps another learning path.
 
@@ -46,10 +46,11 @@ For this learning path, we will be using a tool called **[LM Studio](https://lms
 
 Initially we will start with the simple use case of accessing an LLM like in a chatbot scenario. We will then build on this to more complex use cases like Retrieval-Augmented Generation (RAG) and Vector Databases.
 
-While LM Studio is primarily a desktop application that will work with **Windows**, **Mac** (intel and M*) and **Linux**, it recently released a CLI version - **[LM Studio CLI](https://lmstudio.ai/blog/lms)**, so that you can run and control it programmatically. 
+While LM Studio is primarily a desktop application that will work with **Windows**, **Mac** (M* Apple silicon) and **Linux**, it recently released a CLI version - **[LM Studio CLI](https://lmstudio.ai/blog/lms)**, so that you can run and control it programmatically. 
 
 **We will be covering in more detail how to set up your local LLM dev environment as part of this module.**
 
+### Note: 
 
 ## Generative AI Libraries
 
@@ -60,8 +61,9 @@ Tools like **[LangChain](https://www.langchain.com/)** and **[LlamaIndex](https:
 Later on, we will also be covering more advanced topics such as Vector Databases and Retrieval-Augmented Generation (RAG) options. 
 
 ## Assignment
-- Install **LM Studio** and **LM Studio CLI** on your local machine
-- Copy the [first exercise](1-local-llm-openai-compatibility.ipynb) to `my-notebooks` folder. Work on the exercise, but instead of a Llama 3 LLM, use another one from LM Studio.
+- Install **LM Studio** and **LM Studio CLI** on your local machine. For those that are using a cloud-based LLM, you can skip this step.
+- Copy the [first exercise](1-local-llm-openai-compatibility.ipynb) to `my-notebooks` folder. Work on the exercise, but instead of a Llama 3 LLM, use another one from LM Studio. If you are using a cloud-based LLM, you can see if there is another LLM model that you can connect to. 
 - Copy the [second exercise](2-local-llm-chatbot.ipynb) to `my-notebooks` folder. Work on the exercise with different values in the LM Studio API.
-- Reflect on the results and report back to the group in the Discord channel.
+- If you have more time, perhaps you can try to build another version of the second exercise, but instead of LlamaIndex, maybe use LangChain?
+- Reflect on your learnings and report back to the group in the Discord channel.
 
