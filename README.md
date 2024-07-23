@@ -84,11 +84,12 @@ We will be following the learning path below:
 [**Project 3** Advanced RAG project](.)
 - Build a Chatbot that works for Complex queries and against multiple documents
 
-**Module 6** Frontend options
+[**Module 6** Frontend options](module-6/README.md)
 - Introduction to Frontend options
 - StreamLit
 - NextJS
 - ReactJS
+- Chainlit
 
 **Module 7** Backend options
 - Introduction to Backend options
