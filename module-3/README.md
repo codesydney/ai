@@ -6,14 +6,14 @@
 
 A vector is a mathematical object that has both magnitude and direction. Vectors are often used to represent data in machine learning and deep learning models. For example, a vector can represent a word in a text document, a user in a social network, or an image in a computer vision application.
 
-But in practical terms, vectors are nothing but an array of numbers. A list of numbers if we are speaking Python, and that's it. It looks like this:
+But in practical terms, vectors are nothing but an **array of numbers**. A **list of numbers** if we are speaking Python, and that's it. It looks like this:
 
 ```python
 # A 6-dimensional vector
 six_dimension_vector = [0.19593449, 0.10697176, 0.085852444, 0.020550441, 0.21760122, 0.05884677]
 ```
 
-When people talk about vectors, you will hear the terms, `mathematical representation`, `dimensions`, `smantic search`. Let's try to explain each of these terms that will help us understand the concept of vector databases.
+When people talk about vectors, you will hear the terms, `mathematical representation`, `dimensions`, `semantic search`. Let's try to explain each of these terms that will help us understand the concept of vector databases.
 
 - **Mathematical representation**: A vector is a mathematical representation of an object in a high-dimensional space. Each dimension of the vector corresponds to a feature of the object. For example, a word vector might have dimensions for word frequency, part of speech, and context.
 

@@ -49,6 +49,7 @@ We will be following the learning path below:
 - Online vs Local LLM
 - Setting up your local LLM
 - Generative AI Libraries (eg. LangChain and LlamaIndex)
+- [Link to Module 2 meeting recording](https://www.youtube.com/watch?v=WtCdTQ_ZUT8)
 
 [**Project 1** Local LLM Mini project](.)
 - Setting up your Local LLM
