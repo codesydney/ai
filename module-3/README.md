@@ -44,6 +44,20 @@ In the image above, there is a input query in natural language - `kitten`, and v
 
 There are a multitude of vector databases available in the market. In this module, we will be focusing on two popular vector databases - [PgVector](https://github.com/pgvector/pgvector) and [ChromaDB](https://www.trychroma.com/). 
 
+### Why pgVector?
+
+[Benchmarks](https://supabase.com/blog/pgvector-vs-pinecone) have shown that pgVector maybe faster, have more throughput and cheaper than specialised vector databases. Further to this, pgVector has the following benefits:
+
+- **Postgres** offers numerous features applicable to your vectors: database backups, row-level security, client libraries support and ORMs for 18 languages, complete ACID compliance, bulk updates and deletes (metadata updates in seconds).
+
+- Having all your data in a sole Postgres instance (or a cluster) **reduces roundtrips** in production and allows running the entire developer setup locally.
+
+- Implementing additional databases can **increase operational complexity** and the learning curve.
+
+- Applications already using Postgres can leverage pgVector without adding another library to their stack. **Existing Postgres libraries will still work** with pgVector, so there is less pushback from developers.
+
+- **Postgres is battle-tested and robust**, whereas most specialized vector databases haven't had time to demonstrate their reliability.
+
 ### Setting up PgVector in a local Docker container
 
 Use the following command to start a PgVector container named `codesydney`. We are using the image `ankane/pgvector` which is a pre-built image for PgVector. The environment variable `POSTGRES_PASSWORD` is used to set the password for the `postgres` user. The `-v` flag is used to mount a volume from the host machine to the container. This is useful for persisting data across container restarts. In this case, we are mounting the `postgres` directory in the current working directory to the `/var/lib/postgresql/data` directory in the container. The `-d` flag is used to run the container in detached mode. The `-p` flag is used to map the container port `5432` to the host port `5432`.
@@ -56,7 +70,7 @@ docker run --name codesydney -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:54
 
 ### Setting up ChromaDB in a local Docker container
 
-To be completed
+Left as an exercise activity for the reader.
 
 ### Interactive bash shell 
 
