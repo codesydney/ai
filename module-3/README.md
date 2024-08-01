@@ -9,6 +9,9 @@ A vector is a mathematical object that has both magnitude and direction. Vectors
 But in practical terms, vectors are nothing but an **array of numbers**. A **list of numbers** if we are speaking Python, and that's it. It looks like this:
 
 ```python
+# A 3-dimensional vector
+three_dimension_vector = [0.19593449, 0.10697176, 0.085852444]
+
 # A 6-dimensional vector
 six_dimension_vector = [0.19593449, 0.10697176, 0.085852444, 0.020550441, 0.21760122, 0.05884677]
 ```
