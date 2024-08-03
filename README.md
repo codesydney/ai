@@ -66,6 +66,7 @@ We will be following the learning path below:
 - Setting up PgVector and ChromaDB
 - Accessing PgVector and ChromaDB using LlamaIndex or LangChain
 - Ingestion of your dataset
+- [Link to Module 3 (Part 1) meeting recording](https://www.youtube.com/watch?v=XhunATKWT78)
 
 [**Module 4** Retrieval-Augmented Generation (RAG)](module-4/README.md)
 - Introduction to RAG
