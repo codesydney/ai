@@ -75,8 +75,13 @@ We will be following the learning path below:
 - Chunking strategies
 - Embedding model selection
 
-[**Project 2** RAG Mini project](.)
-- Build a simple RAG model using LlamaIndex and LangChain
+[**Project 2** Simple RAG project](.)
+- Build a simple RAG system using LlamaIndex or LangChain
+- Deliverables:
+    - Jupyter notebook with your RAG model using your own data (pdf, markdown or documents)
+    - Documentation on how to setup Vector Database, Local LLM and run the simple RAG model
+    - personal Github repo with your RAG project
+    - Assume you are presenting this to a client
 
 [**Module 5** Advanced RAG](module-5/README.md)
 - RAG failure modes
