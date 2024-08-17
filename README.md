@@ -74,6 +74,7 @@ We will be following the learning path below:
 - Basic RAG in LlamaIndex and LangChain
 - Chunking strategies
 - Embedding model selection
+- [Link to Module 4 meeting recording](https://youtu.be/j6ypyScIH9M)
 
 [**Project 2** Simple RAG project](.)
 - Build a simple RAG system using LlamaIndex or LangChain
