@@ -56,7 +56,7 @@ def setup_global_settings(embed_model):
     Setup global settings for the Llama Index.
     """
     Settings.llm = LMStudio(
-        model_name="lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
+        model_name="lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/Meta-Llama-3.1-8B-Instruct-Q4_K_M-take2.gguf",
         base_url="http://localhost:1234/v1",
         temperature=0,
         # set this parameter to increase request time out
@@ -126,7 +126,7 @@ async def start():
     cl.user_session.set("query_engine", query_engine)
 
     await cl.Message(
-        author="Assistant", content="Hello! Im an AI assistant. How may I help you?"
+        author="Assistant", content="Hello! Im an AI assistant. I have ingested Attention is All You need PDF. How may I help you?"
     ).send()
 
 
