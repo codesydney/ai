@@ -1,4 +1,4 @@
-# Module 6 - RAG Application using Chainlit
+# Module 5 - RAG Application using Chainlit
 
 In this module, we will build a simple full-stack application for our RAG system using Chainlit. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
 
