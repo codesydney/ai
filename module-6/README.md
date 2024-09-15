@@ -1,4 +1,4 @@
-# Module 5 - Advanced RAG (LlamaIndex)
+# Module 6 - Advanced RAG (LlamaIndex)
 
 ## RAG Motivation
 
