@@ -94,6 +94,7 @@ We will be following the learning path below:
 - Flask
 - FastAPI
 - DJango
+- [Link to Module 5 meeting recording](https://youtu.be/gPerB9iVJX8?si=IXJc_zZggVmajk35&t=90)
 
 [**Module 6** Advanced RAG](module-6/README.md)
 - RAG failure modes
